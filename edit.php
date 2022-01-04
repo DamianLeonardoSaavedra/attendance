@@ -56,7 +56,8 @@ if (!isset($_GET['id']))
             <input type="text" class="form-control" value="<?php echo $attendee['contactnumber'] ?>" id="phone" name="phone">
             <small id="phone" class="form-text text-muted">We'll never share your number with anyone else.</small>
         </div>
-        <button type="submit" name="submit" class="btn btn-success btn-block">Save Changes</button>
+        <button href="viewrecords.php" class="btn btn-default">Back To List</button>
+        <button type="submit" name="submit" class="btn btn-success">Save Changes</button>
     </form>
 
 <?php } ?>
